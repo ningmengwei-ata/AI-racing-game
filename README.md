@@ -10,3 +10,16 @@ AI赛车避障游戏基于Pygame开发，包含`game_util.py`和`main_game.py`�
 - 左右箭头：手动调整赛车方向
 - Enter键：跳过操作说明/重启游戏
 - 通关条件：达到当前关卡目标分数，碰撞障碍物则游戏结束。
+
+
+The AI Racing Obstacle Avoidance Game is developed based on Pygame, consisting of two core files: `game_util.py` and `main_game.py`. It implements a racing game with AI automatic obstacle avoidance and dynamic difficulty adjustment across multiple levels.  
+
+### Core File Explanation
+1. `game_util.py`: Provides auxiliary functions, including drawing the color selection interface and rendering pop-ups for level completion/game over, supporting visual interactive elements of the game.  
+2. `main_game.py`: The core logic file, implementing car control (arrow keys for manual/AI for automatic), obstacle generation, dynamic level difficulty adjustment (speed/danger distance/spawn rate), and AI obstacle avoidance decision-making (selecting the optimal lane based on lane safety scores).  
+
+### Operation Instructions
+- Left/Right Arrows: Manually adjust the car's direction  
+- Enter Key: Skip operation tips / restart the game  
+- Clear Condition: Reach the target score of the current level; collision with obstacles ends the game.  
+
